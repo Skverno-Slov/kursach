@@ -1,0 +1,57 @@
+[
+  {
+    "Ip": "192.168.100.192",
+    "Login": "comtech",
+    "Password": "comtech",
+    "Params": [
+      {
+        "Command": "<0000/ber?",
+        "Name": "ber",
+        "Uncorrect": "99999",
+        "Annotations": null
+      },
+      {
+        "Command": "<0000/EBN?",
+        "Name": "ebn",
+        "Uncorrect": "99.9",
+        "Annotations": null
+      },
+      {
+        "Command": "<0000/TMP?",
+        "Name": "tmp",
+        "Uncorrect": null,
+        "Annotations": null
+      },
+      {
+        "Command": "<0000/RSL?",
+        "Name": "rsl",
+        "Uncorrect": null,
+        "Annotations": null
+      },
+      {
+        "Command": "<0000/TXO?",
+        "Name": "txo",
+        "Uncorrect": null,
+        "Annotations": {
+          "0": "OFF due to front...",
+          "1": "ON",
+          "2": "RTI (...)",
+          "3": "OFF due to exi...",
+          "4": "OFF due to BUC...",
+          "5": "Carrier controlled..."
+        }
+      },
+      {
+        "Command": "<0000/TTC?",
+        "Name": "ttc",
+        "Uncorrect": null,
+        "Annotations": {
+          "0": "AMI",
+          "1": "B8ZC",
+          "2": "B6ZC",
+          "3": "HDB3"
+        }
+      }
+    ]
+  }
+]

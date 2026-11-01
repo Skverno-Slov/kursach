@@ -1,0 +1,36 @@
+[
+  {
+    "Ip": "192.168.100.192",
+    "Login": "comtech",
+    "Password": "comtech",
+    "Params": [
+      {
+        "Name": "<0000/ber?",
+        "Uncorrect": "99999",
+        "Annotations": null
+      },
+      {
+        "Name": "<0000/EBN?",
+        "Uncorrect": null,
+        "Annotations": null
+      },
+      {
+        "Name": "<0000/TMP?",
+        "Uncorrect": null,
+        "Annotations": null
+      },
+      {
+        "Name": "<0000/TXO?",
+        "Uncorrect": null,
+        "Annotations": {
+          "0": "OFF due to front...",
+          "1": "ON",
+          "2": "RTI (...)",
+          "3": "OFF due to exi...",
+          "4": "OFF due to BUC...",
+          "5": "Carrier controlled..."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Signal.Views.UsersPage"
+			 xmlns:vm="using:Signal.ViewModels"
+			 xmlns:dtos="using:Signal.Dtos"
+             x:DataType="vm:UsersPageViewModel"
+			 Loaded="UsersPage_Loaded">
+	<DockPanel Margin="20">
+		<StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,10">
+			<Button Content="Добавить пользователя"
+					Command="{Binding AddUserCommand}" Margin="0,0,5,0"/>
+			<Button Content="Обновить"
+					Command="{Binding LoadUsersCommand}"/>
+		</StackPanel>
+
+		<StackPanel>
+			<DataGrid ItemsSource="{Binding Users}"
+					  AutoGenerateColumns="False"
+					  IsReadOnly="True"
+					  GridLinesVisibility="All">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Логин" Binding="{Binding Login}" Width="*"/>
+					<DataGridTextColumn Header="Фамилия" Binding="{Binding SecondName}" Width="*"/>
+					<DataGridTextColumn Header="Имя" Binding="{Binding FirstName}" Width="*"/>
+					<DataGridTextColumn Header="Отчество" Binding="{Binding LastName}" Width="*"/>
+					<DataGridTemplateColumn Header="Роли" Width="*">
+						<DataGridTemplateColumn.CellTemplate>
+							<DataTemplate>
+								<ItemsControl ItemsSource="{Binding RoleNames}">
+									<ItemsControl.ItemsPanel>
+										<ItemsPanelTemplate>
+											<StackPanel Orientation="Horizontal" Spacing="5"/>
+										</ItemsPanelTemplate>
+									</ItemsControl.ItemsPanel>
+									<ItemsControl.ItemTemplate>
+										<DataTemplate>
+											<TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+										</DataTemplate>
+									</ItemsControl.ItemTemplate>
+								</ItemsControl>
+							</DataTemplate>
+						</DataGridTemplateColumn.CellTemplate>
+					</DataGridTemplateColumn>
+
+					<DataGridTemplateColumn Header="Действия" Width="*">
+						<DataGridTemplateColumn.CellTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+									<Button Content="Редактировать"
+											Command="{Binding $parent[DataGrid].((vm:UsersPageViewModel)DataContext).EditUserCommand}"
+											CommandParameter="{Binding}"/>
+									<Button Content="Удалить"
+											Command="{Binding $parent[DataGrid].((vm:UsersPageViewModel)DataContext).DeleteUserCommand}"
+											CommandParameter="{Binding}"/>
+								</StackPanel>
+							</DataTemplate>
+						</DataGridTemplateColumn.CellTemplate>
+					</DataGridTemplateColumn>
+				</DataGrid.Columns>
+			</DataGrid>
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+				<Button Content="◀" Command="{Binding PrevPageCommand}"/>
+				<TextBlock VerticalAlignment="Center">
+					<Run Text="{Binding CurrentPage}"/>
+					<Run Text="/"/>
+					<Run Text="{Binding TotalPages}"/>
+				</TextBlock>
+				<Button Content="▶" Command="{Binding NextPageCommand}"/>
+			</StackPanel>
+		</StackPanel>
+	</DockPanel>
+</UserControl>

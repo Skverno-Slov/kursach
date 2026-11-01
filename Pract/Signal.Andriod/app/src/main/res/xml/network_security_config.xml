@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!--TODO: реальный сертификат-->
+        <domain includeSubdomains="false">10.175.173.134</domain>
+
+        <trust-anchors>
+            <certificates src="@raw/signal" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

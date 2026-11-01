@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Signal.agent/Signal.agent.csproj" Id="2b011efe-6d60-4fba-b199-ff65142d846a" />
+  <Project Path="Signal.Server/Signal.Server.csproj" />
+  <Project Path="Signal.Test/Signal.Test.csproj" Id="e7a1f30e-2d91-4e55-adbd-46715beb112a" />
+</Solution>

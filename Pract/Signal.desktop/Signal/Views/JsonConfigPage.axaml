@@ -1,0 +1,76 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Signal.JsonConfigPage"
+			 xmlns:vm="using:Signal.ViewModels"
+			 x:DataType="vm:JsonConfigPageViewModel"
+             Loaded="JsonConfigPage_Loaded">
+	<DockPanel Margin="15">
+		<StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="10" Margin="0,0,0,15">
+			<Button Content="Сохранить" Command="{Binding SaveConfigCommand}" Classes="accent"/>
+			<Button Content="Экспортировать" Command="{Binding ExportConfigCommand}"/>
+			<TextBlock Text="{Binding StatusMessage}" VerticalAlignment="Center" Foreground="Gray" Margin="10,0,0,0"/>
+		</StackPanel>
+
+		<Grid Grid.Row="1" ColumnDefinitions="*, 1.2*, *">
+
+			<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+				<StackPanel Margin="5">
+					<TextBlock Text="Устройства" FontSize="14" FontWeight="Bold" VerticalAlignment="Center"/>
+					<StackPanel Orientation="Horizontal" Margin="5">
+						<Button Content="+" Command="{Binding AddDeviceCommand}" Width="30" Margin="0,0,5,0"/>
+						<Button Content="-" Command="{Binding DeleteDeviceCommand}" Width="30"/>
+					</StackPanel>
+					<DataGrid ItemsSource="{Binding Devices}"
+							  SelectedItem="{Binding SelectedDevice}"
+							  AutoGenerateColumns="False" IsReadOnly="False" GridLinesVisibility="All">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="IP-Адрес" Binding="{Binding Ip}"/>
+							<DataGridTextColumn Header="Логин" Binding="{Binding Login}"/>
+							<DataGridTextColumn Header="Пароль" Binding="{Binding Password}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+				</StackPanel>
+			</ScrollViewer>
+
+			<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Grid.Column="1">
+				<StackPanel Margin="5">
+					<TextBlock Text="Показания" FontSize="14" FontWeight="Bold" VerticalAlignment="Center"/>
+					<StackPanel Orientation="Horizontal" Margin="5">
+						<Button Content="+" Command="{Binding AddParamCommand}" Width="30" Margin="0,0,5,0"/>
+						<Button Content="-" Command="{Binding DeleteParamCommand}" Width="30"/>
+					</StackPanel>
+					<DataGrid ItemsSource="{Binding SelectedDevice.Params}"
+							  SelectedItem="{Binding SelectedParam}"
+							  AutoGenerateColumns="False" IsReadOnly="False" GridLinesVisibility="All">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="Команда" Binding="{Binding Command}"/>
+							<DataGridTextColumn Header="Название показания" Binding="{Binding Name}"/>
+							<DataGridTextColumn Header="Некорректное значение" Binding="{Binding Uncorrect}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+				</StackPanel>
+			</ScrollViewer>
+
+			<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Grid.Column="2">
+				<StackPanel Margin="5">
+					<TextBlock Text="Аннотации" FontSize="14" FontWeight="Bold" VerticalAlignment="Center"/>
+					<StackPanel Orientation="Horizontal" Margin="5">
+						<Button Content="+" Command="{Binding AddAnnotationCommand}" Width="30" Margin="0,0,5,0"/>
+						<Button Content="-" Command="{Binding DeleteAnnotationCommand}" Width="30"/>
+					</StackPanel>
+					<DataGrid ItemsSource="{Binding CurrentAnnotations}"
+							  SelectedItem="{Binding SelectedAnnotation}"
+							  AutoGenerateColumns="False" IsReadOnly="False" GridLinesVisibility="All">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="Ключ" Binding="{Binding Key}"/>
+							<DataGridTextColumn Header="Значение" Binding="{Binding Value}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+				</StackPanel>
+			</ScrollViewer>
+		</Grid>
+	</DockPanel>
+</UserControl>

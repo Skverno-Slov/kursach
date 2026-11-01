@@ -1,0 +1,73 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Signal.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Signal.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Signal: Панель администратора">
+
+	<DockPanel LastChildFill="True">
+
+		<Grid DockPanel.Dock="Top" Height="50" ColumnDefinitions="Auto, *, Auto">
+			<Button Grid.Column="0"
+                    Command="{Binding ToggleMenuCommand}"
+                    Content="☰"
+                    FontSize="20"
+                    Background="Transparent"
+                    BorderThickness="0"/>
+
+			<TextBlock Grid.Column="2"
+                       Text="{Binding UserFullName}"
+                       VerticalAlignment="Center"
+                       FontWeight="SemiBold"
+                       Margin="0,0,10,0"/>
+		</Grid>
+
+		<Border DockPanel.Dock="Bottom" Height="30" BorderThickness="0,1,0,0">
+			<TextBlock Text="2026 - ARR"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="12"
+                       Foreground="Gray"/>
+		</Border>
+
+		<SplitView IsPaneOpen="{Binding IsMenuOpen}"
+                   DisplayMode="CompactOverlay"
+                   OpenPaneLength="250"
+                   CompactPaneLength="0">
+
+			<SplitView.Pane>
+				<Border BorderThickness="0,0,1,0">
+					<StackPanel Spacing="5" Margin="5,10">
+						<Button Content="Пользователи"
+                                Command="{Binding OpenUsersPageCommand}"
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
+						<Button Content="Оборудование"
+                                Command="{Binding OpenEquipmentPageCommand}"
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
+						<Button Content="Типы показаний"
+                                Command="{Binding OpenReadingTypePageCommand}"
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
+						<Button Content="Конфигурация агента"
+                                Command="{Binding OpenJsonConfigPageCommand}"
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
+						<Button Content="Настройки"
+                                Command="{Binding OpenSettingsCommand}"
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
+						<Separator Margin="0,5"/>
+						<Button Content="Выход"
+                                Command="{Binding ExitApplicationCommand}"
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
+                                Foreground="Red"/>
+					</StackPanel>
+				</Border>
+			</SplitView.Pane>
+
+			<ContentControl Content="{Binding CurrentPage}" />
+		</SplitView>
+
+	</DockPanel>
+</Window>

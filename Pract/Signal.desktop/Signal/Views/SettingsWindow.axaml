@@ -1,0 +1,80 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Signal.Views.SettingsWindow"
+		xmlns:vm="using:Signal.ViewModels"
+		x:DataType="vm:SettingsWindowViewModel"
+		Icon="/Assets/avalonia-logo.ico"
+        Title="Signal: Панель администратора / Настройки">
+	<Grid RowDefinitions="Auto, Auto, *, Auto" Margin="20">
+		<StackPanel Grid.Row="0" Spacing="15">
+			<StackPanel>
+				<TextBlock Text="Адрес сервера:" Margin="0,0,0,5" FontWeight="SemiBold"/>
+				<TextBox Text="{Binding Address, Mode=TwoWay}"
+                         Watermark="Например: 127.0.0.1"/>
+			</StackPanel>
+
+			<StackPanel>
+				<TextBlock Text="Порт:" Margin="0,0,0,5" FontWeight="SemiBold"/>
+				<TextBox Text="{Binding Port, Mode=TwoWay}"
+                         Watermark="Например: 8080"/>
+			</StackPanel>
+		</StackPanel>
+
+		<StackPanel Grid.Row="1" Margin="0,15,0,0">
+			<ItemsControl ItemsSource="{Binding Errors}" Margin="5,5,0,0">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding}" Foreground="#E53935" Margin="0,2"/>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</StackPanel>
+
+		<Border Grid.Row="2"/>
+
+		<UniformGrid Grid.Row="3" Columns="2" Rows="1" Margin="0,20,0,0">
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="0,0,5,0">
+				<Button Content="{Binding ConnectionState}"
+                        Command="{Binding TryConnectCommand}"
+                        IsEnabled="{Binding IsDataCorrect}"
+                        HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Center"
+                        VerticalAlignment="Center"
+                        Padding="10,12"
+                        Width="150"/>
+
+				<TextBlock Text="✓"
+                           Foreground="#4CAF50"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Margin="10,0,0,0"
+                           IsVisible="{Binding IsConnected}"/>
+			</StackPanel>
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="5,0,0,0">
+				<Button Content="Сохранить"
+                        Command="{Binding SaveSettingsCommand}"
+                        IsEnabled="{Binding IsConnected}"
+                        HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Center"
+                        VerticalAlignment="Center"
+                        Padding="10,12"
+                        Width="150"/>
+
+				<TextBlock Text="✓"
+                           Foreground="#4CAF50"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Margin="10,0,0,0"
+                           IsVisible="{Binding IsSaved}"/>
+			</StackPanel>
+
+		</UniformGrid>
+	</Grid>
+</Window>

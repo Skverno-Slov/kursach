@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CommunityToolkit.Diagnostics/8.4.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Diagnostics.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.2.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Diagnostics/8.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WC0fk3A49gk6kWjhSZ8CDgPkv+wPHGhMFxUrKRlLtzUYXRFOdTDQ4RsEkZnI9ApO7eJh6nqT2MFmwFptpMs7aw==",
+      "path": "communitytoolkit.diagnostics/8.4.2",
+      "hashPath": "communitytoolkit.diagnostics.8.4.2.nupkg.sha512"
+    }
+  }
+}

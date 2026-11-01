@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="signal_track_db_diagram.erd">
+	<entities>
+		<data-source id="postgres-jdbc-19e3ee70a3f-368ca9b7f8d1e4f7">
+			<entity id="1" name="equipment" fq-name="public.equipment" order="0" color-bg="228,255,181" x="791" y="196">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="2" name="reading_log" fq-name="public.reading_log" order="1" color-bg="228,255,181" x="536" y="89">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="3" name="reading_type" fq-name="public.reading_type" order="2" color-bg="228,255,181" x="791" y="496">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="4" name="role" fq-name="public.&quot;role&quot;" order="3" color-bg="228,255,181" x="305" y="40">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="5" name="session" fq-name="public.&quot;session&quot;" order="4" color-bg="228,255,181" x="40" y="508">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="6" name="status" fq-name="public.status" order="5" color-bg="228,255,181" x="793" y="52">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="7" name="user" fq-name="public.&quot;user&quot;" order="6" color-bg="228,255,181" x="305" y="496">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="8" name="user_role" fq-name="public.user_role" order="7" color-bg="228,255,181" x="40" y="124">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="9" name="user_alert" fq-name="public.user_alert" order="8" x="40" y="280">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="10" name="equipment_command" fq-name="public.equipment_command" order="9" x="536" y="362">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="11" name="alert" fq-name="public.alert" order="10" x="305" y="196">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+			<entity id="12" name="admin_audit_log" fq-name="public.admin_audit_log" order="11" x="552" y="577">
+				<path name="public"/>
+				<path name="signal_track_db"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="reading_log_equipment_id_fkey" fq-name="public.reading_log.reading_log_equipment_id_fkey" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="fk_cmd_equipment" fq-name="public.equipment_command.fk_cmd_equipment" type="fk" pk-ref="1" fk-ref="10"/>
+		<relation name="fk_alert_equipment" fq-name="public.alert.fk_alert_equipment" type="fk" pk-ref="1" fk-ref="11"/>
+		<relation name="fk_alert_reading_log" fq-name="public.alert.fk_alert_reading_log" type="fk" pk-ref="2" fk-ref="11"/>
+		<relation name="reading_log_reading_type_id_fkey" fq-name="public.reading_log.reading_log_reading_type_id_fkey" type="fk" pk-ref="3" fk-ref="2"/>
+		<relation name="fk_cmd_reading_type" fq-name="public.equipment_command.fk_cmd_reading_type" type="fk" pk-ref="3" fk-ref="10"/>
+		<relation name="user_role_role_id_fkey" fq-name="public.user_role.user_role_role_id_fkey" type="fk" pk-ref="4" fk-ref="8"/>
+		<relation name="equipment_status_id_fkey" fq-name="public.equipment.equipment_status_id_fkey" type="fk" pk-ref="6" fk-ref="1"/>
+		<relation name="reading_log_status_id_fkey" fq-name="public.reading_log.reading_log_status_id_fkey" type="fk" pk-ref="6" fk-ref="2"/>
+		<relation name="session_user_id_fkey" fq-name="public.&quot;session&quot;.session_user_id_fkey" type="fk" pk-ref="7" fk-ref="5"/>
+		<relation name="user_role_user_id_fkey" fq-name="public.user_role.user_role_user_id_fkey" type="fk" pk-ref="7" fk-ref="8"/>
+		<relation name="fk_user_alert_user" fq-name="public.user_alert.fk_user_alert_user" type="fk" pk-ref="7" fk-ref="9"/>
+		<relation name="fk_audit_user" fq-name="public.admin_audit_log.fk_audit_user" type="fk" pk-ref="7" fk-ref="12"/>
+		<relation name="fk_user_alert_alert" fq-name="public.user_alert.fk_user_alert_alert" type="fk" pk-ref="11" fk-ref="9"/>
+	</relations>
+</diagram>

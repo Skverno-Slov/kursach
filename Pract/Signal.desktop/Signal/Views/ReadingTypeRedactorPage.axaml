@@ -1,0 +1,38 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Signal.ReadingTypeRedactorPage"
+			 xmlns:vm="using:Signal.ViewModels"
+			 x:DataType="vm:ReadingTypeRedactorPageViewModel">
+	<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+		<StackPanel Margin="20">
+			<StackPanel Margin="5">
+				<TextBlock Text="Название:"/>
+				<TextBox Text="{Binding Name}"/>
+			</StackPanel>
+			<StackPanel Margin="5">
+				<TextBlock Text="Идентификатор:"/>
+				<TextBox Text="{Binding Identifier}"/>
+			</StackPanel>
+			<StackPanel Margin="5">
+				<TextBlock Text="Единица измерения:"/>
+				<TextBox Text="{Binding Unit}"/>
+			</StackPanel>
+			<StackPanel Margin="5">
+				<TextBlock Text="Минимальное значение:"/>
+				<TextBox Text="{Binding MinValue}"/>
+			</StackPanel>
+			<StackPanel Margin="5">
+				<TextBlock Text="Максимальное значение:"/>
+				<TextBox Text="{Binding MaxValue}"/>
+			</StackPanel>
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,15,0,0">
+				<Button Content="Назад" Command="{Binding CloseCommand}" Margin="0,0,5,0"/>
+				<Button Content="Сохранить" Command="{Binding SaveCommand}"/>
+			</StackPanel>
+		</StackPanel>
+	</ScrollViewer>
+</UserControl>

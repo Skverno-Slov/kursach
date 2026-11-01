@@ -1,0 +1,677 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.test\\authservicetests .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|solutionrelative:signal.test\\authservicetests .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.test\\equipmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|solutionrelative:signal.test\\equipmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.test\\signal.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|solutionrelative:signal.test\\signal.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.test\\dbtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|solutionrelative:signal.test\\dbtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.test\\testapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A1F30E-2D91-4E55-ADBD-46715BEB112A}|Signal.Test\\Signal.Test.csproj|solutionrelative:signal.test\\testapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B011EFE-6D60-4FBA-B199-FF65142D846A}|Signal.agent\\Signal.agent.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.agent\\models\\paramconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B011EFE-6D60-4FBA-B199-FF65142D846A}|Signal.agent\\Signal.agent.csproj|solutionrelative:signal.agent\\models\\paramconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B011EFE-6D60-4FBA-B199-FF65142D846A}|Signal.agent\\Signal.agent.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.agent\\models\\deviceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B011EFE-6D60-4FBA-B199-FF65142D846A}|Signal.agent\\Signal.agent.csproj|solutionrelative:signal.agent\\models\\deviceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\readingtyperesponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\readingtyperesponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\readingtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\readingtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\equipmentresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\equipmentresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\readingtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\readingtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\readinglogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\readinglogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B011EFE-6D60-4FBA-B199-FF65142D846A}|Signal.agent\\Signal.agent.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.agent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B011EFE-6D60-4FBA-B199-FF65142D846A}|Signal.agent\\Signal.agent.csproj|solutionrelative:signal.agent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\updateuserrolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\updateuserrolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\usersresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\usersresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\readinglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\readinglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\createreadinglogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\createreadinglogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\refreshrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\refreshrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\pagedlogsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\pagedlogsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\latestreadingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\latestreadingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\dtos\\graphpointresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\dtos\\graphpointresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\viewlatestequipmentreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\viewlatestequipmentreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\data\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\data\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|c:\\users\\thunder\\documents\\repos\\pract\\signal.server\\signal.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BEC1D1D-27B4-2F95-C650-02D62A99FC3C}|Signal.Server\\Signal.Server.csproj|solutionrelative:signal.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Signal.Test.csproj",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\Signal.Test.csproj",
+              "RelativeDocumentMoniker": "Signal.Test\\Signal.Test.csproj",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\Signal.Test.csproj",
+              "RelativeToolTip": "Signal.Test\\Signal.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-13T23:12:24.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthServiceTests .cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\AuthServiceTests .cs",
+              "RelativeDocumentMoniker": "Signal.Test\\AuthServiceTests .cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\AuthServiceTests .cs",
+              "RelativeToolTip": "Signal.Test\\AuthServiceTests .cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwE8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T20:00:43.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EquipmentServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\EquipmentServiceTests.cs",
+              "RelativeDocumentMoniker": "Signal.Test\\EquipmentServiceTests.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\EquipmentServiceTests.cs",
+              "RelativeToolTip": "Signal.Test\\EquipmentServiceTests.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T20:14:36.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Services\\AuthService.cs",
+              "RelativeToolTip": "Signal.Server\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:42:47.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Signal.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAIwGAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:50.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Services\\EquipmentService.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Services\\EquipmentService.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Services\\EquipmentService.cs",
+              "RelativeToolTip": "Signal.Server\\Services\\EquipmentService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:44:06.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\TestApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Signal.Test\\TestApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\TestApplicationDbContext.cs",
+              "RelativeToolTip": "Signal.Test\\TestApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T20:26:45.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Program.cs",
+              "RelativeToolTip": "Signal.Server\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:01.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Controllers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Controllers\\EquipmentController.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Controllers\\EquipmentController.cs",
+              "RelativeToolTip": "Signal.Server\\Controllers\\EquipmentController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAmwH8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T08:02:36.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbTestBase.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\DbTestBase.cs",
+              "RelativeDocumentMoniker": "Signal.Test\\DbTestBase.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Test\\DbTestBase.cs",
+              "RelativeToolTip": "Signal.Test\\DbTestBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T20:10:25.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeviceConfig.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.agent\\Models\\DeviceConfig.cs",
+              "RelativeDocumentMoniker": "Signal.agent\\Models\\DeviceConfig.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.agent\\Models\\DeviceConfig.cs",
+              "RelativeToolTip": "Signal.agent\\Models\\DeviceConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T13:57:57.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EquipmentResponce.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\EquipmentResponce.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\EquipmentResponce.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\EquipmentResponce.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\EquipmentResponce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:21:28.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParamConfig.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.agent\\Models\\ParamConfig.cs",
+              "RelativeDocumentMoniker": "Signal.agent\\Models\\ParamConfig.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.agent\\Models\\ParamConfig.cs",
+              "RelativeToolTip": "Signal.agent\\Models\\ParamConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T13:58:20.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReadingTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\ReadingTypeDto.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\ReadingTypeDto.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\ReadingTypeDto.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\ReadingTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:59:10.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReadingTypeResponce.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\ReadingTypeResponce.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\ReadingTypeResponce.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\ReadingTypeResponce.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\ReadingTypeResponce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T00:03:36.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EquipmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\EquipmentDto.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\EquipmentDto.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\EquipmentDto.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\EquipmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:44.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\LoginRequest.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:58:17.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReadingType.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\ReadingType.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\ReadingType.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\ReadingType.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\ReadingType.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAnwCUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:33.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReadingLogResponse.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\ReadingLogResponse.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\ReadingLogResponse.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\ReadingLogResponse.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\ReadingLogResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:58:22.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthOptions.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\AuthOptions.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\AuthOptions.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\AuthOptions.cs",
+              "RelativeToolTip": "Signal.Server\\AuthOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:06.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.agent\\Program.cs",
+              "RelativeDocumentMoniker": "Signal.agent\\Program.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.agent\\Program.cs",
+              "RelativeToolTip": "Signal.agent\\Program.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAEwJAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T13:25:00.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "session.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\session.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\session.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\session.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\session.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwCAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:31.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\TokenResponse.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\TokenResponse.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:38.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T08:36:01.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateUserRolesDto.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\UpdateUserRolesDto.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\UpdateUserRolesDto.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\UpdateUserRolesDto.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\UpdateUserRolesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T06:41:26.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\RegisterRequest.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:39.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwHMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T08:09:16.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UsersResponce.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\UsersResponce.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\UsersResponce.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\UsersResponce.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\UsersResponce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T09:17:33.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReadingLog.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\ReadingLog.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\ReadingLog.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\ReadingLog.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\ReadingLog.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:34.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "equipment.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\equipment.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\equipment.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\equipment.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\equipment.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwCgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:35.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateReadingLogDto.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\CreateReadingLogDto.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\CreateReadingLogDto.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\CreateReadingLogDto.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\CreateReadingLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T09:10:36.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PingController.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Controllers\\PingController.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Controllers\\PingController.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Controllers\\PingController.cs",
+              "RelativeToolTip": "Signal.Server\\Controllers\\PingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:46.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RefreshRequest.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\RefreshRequest.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\RefreshRequest.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\RefreshRequest.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\RefreshRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:40.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PagedLogsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\PagedLogsResponse.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\PagedLogsResponse.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\PagedLogsResponse.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\PagedLogsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:42.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LatestReadingResponse.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\LatestReadingResponse.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\LatestReadingResponse.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\LatestReadingResponse.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\LatestReadingResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:27:59.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GraphPointResponse.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\GraphPointResponse.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Dtos\\GraphPointResponse.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Dtos\\GraphPointResponse.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Dtos\\GraphPointResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:23:22.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ViewLatestEquipmentReading.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\ViewLatestEquipmentReading.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\ViewLatestEquipmentReading.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\ViewLatestEquipmentReading.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\ViewLatestEquipmentReading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T08:01:03.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\user.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\user.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\user.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:29.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "status.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\status.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\status.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\status.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:30.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "role.cs",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\role.cs",
+              "RelativeDocumentMoniker": "Signal.Server\\Data\\Models\\role.cs",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Data\\Models\\role.cs",
+              "RelativeToolTip": "Signal.Server\\Data\\Models\\role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:04:32.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Signal.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\THUNDER\\Documents\\repos\\Pract\\Signal.Server\\Signal.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Signal.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-02T14:21:45.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

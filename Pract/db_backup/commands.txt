@@ -1,0 +1,2 @@
+pg_dump -U postgres -h localhost -p 5432 -F c -b -v -f C:/signal_track_db_back.dump signal_track_db
+pg_restore -U postgres -h localhost -p 5432 -d signal_track_db -c -v "C:\signal_track_db_back.dump"
